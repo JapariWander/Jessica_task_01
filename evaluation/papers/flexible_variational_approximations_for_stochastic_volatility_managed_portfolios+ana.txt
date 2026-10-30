@@ -1,0 +1,2 @@
+Flexible variational approximations for stochastic volatility-managed portfolios
+Authors: Nicolas Bianco; Mauro Bernardi

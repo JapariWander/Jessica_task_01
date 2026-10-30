@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.cache/
+*.egg-info/
+build/
+dist/
+data/raw/*
+data/processed/*
+artifacts/*
+!artifacts/.gitkeep
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+# Full-context traces can contain substantial third-party excerpts.
+evaluation/results-*.json
+examples/*-evidence.json
+examples/*-llm.json
+evaluation/grounding_review.csv
+
+# Local full-text preservation and acquisition logs
+.local/
+data/acquisition.json

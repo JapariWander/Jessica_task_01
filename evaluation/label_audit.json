@@ -1,0 +1,22 @@
+{
+  "audited_at": "2026-10-23T13:41:13.693171+00:00",
+  "auditor": "Codex agent, not a human annotator",
+  "question_id": "q15",
+  "before": {
+    "question_id": "q15",
+    "relevant_document_ids": [
+      "a10"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  "after": {
+    "question_id": "q15",
+    "relevant_document_ids": [],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Agent source audit: a10 describes position-count and volatility filters, not signal smoothing or its effect on turnover. No direct answer established in corpus; human review still required."
+  },
+  "reason": "Full-text inspection found a false-positive provisional label. Question preserved, relevance corrected to empty. No retrieval parameters tuned using this test finding. Before-audit runs retained locally; final test results remain exploratory."
+}

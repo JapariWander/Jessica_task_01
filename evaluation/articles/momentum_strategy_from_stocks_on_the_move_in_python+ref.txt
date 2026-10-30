@@ -1,0 +1,2 @@
+Momentum Strategy from "Stocks on the Move" in Python
+Authors: Teddy Koker

@@ -1,0 +1,223 @@
+[
+  {
+    "question_id": "q01",
+    "relevant_document_ids": [
+      "a01",
+      "p02"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q02",
+    "relevant_document_ids": [
+      "a09",
+      "a10",
+      "a12"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q03",
+    "relevant_document_ids": [
+      "a02",
+      "p02"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q04",
+    "relevant_document_ids": [
+      "p02"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q05",
+    "relevant_document_ids": [
+      "p01"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q06",
+    "relevant_document_ids": [
+      "p03"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q07",
+    "relevant_document_ids": [
+      "p04"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q08",
+    "relevant_document_ids": [
+      "a03"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q09",
+    "relevant_document_ids": [
+      "a07"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q10",
+    "relevant_document_ids": [
+      "a05"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q11",
+    "relevant_document_ids": [
+      "a06"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q12",
+    "relevant_document_ids": [],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q13",
+    "relevant_document_ids": [
+      "a12"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q14",
+    "relevant_document_ids": [
+      "a09",
+      "a10"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q15",
+    "relevant_document_ids": [],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Agent source audit: a10 describes position-count and volatility filters, not signal smoothing or its effect on turnover. No direct answer established in corpus; human review still required."
+  },
+  {
+    "question_id": "q16",
+    "relevant_document_ids": [
+      "a02"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q17",
+    "relevant_document_ids": [
+      "p02"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q18",
+    "relevant_document_ids": [
+      "p01",
+      "a12"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q19",
+    "relevant_document_ids": [
+      "p03"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q20",
+    "relevant_document_ids": [
+      "p04"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q21",
+    "relevant_document_ids": [
+      "a04"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q22",
+    "relevant_document_ids": [
+      "a08"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q23",
+    "relevant_document_ids": [
+      "a11",
+      "a12"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  },
+  {
+    "question_id": "q24",
+    "relevant_document_ids": [
+      "a09",
+      "a10",
+      "a12"
+    ],
+    "status": "agent_proposed",
+    "reviewer": null,
+    "rationale": "Candidate relevance based on source inspection; not exhaustive or human-validated. Review all corpus documents before approval."
+  }
+]

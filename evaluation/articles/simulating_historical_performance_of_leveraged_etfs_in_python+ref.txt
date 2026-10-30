@@ -1,0 +1,2 @@
+Simulating Historical Performance of Leveraged ETFs in Python
+Authors: Teddy Koker

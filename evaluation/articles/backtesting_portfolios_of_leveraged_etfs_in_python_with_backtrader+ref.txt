@@ -1,0 +1,2 @@
+Backtesting Portfolios of Leveraged ETFs in Python with Backtrader
+Authors: Teddy Koker

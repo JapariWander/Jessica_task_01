@@ -1,0 +1,146 @@
+[
+  {
+    "id": "q01",
+    "query": "Explain time-series mean reversion and how a half-life estimate can inform a trading signal.",
+    "split": "dev",
+    "kind": "explanation"
+  },
+  {
+    "id": "q02",
+    "query": "Compare cross-sectional mean reversion with the momentum ranking strategy from Stocks on the Move.",
+    "split": "dev",
+    "kind": "comparison"
+  },
+  {
+    "id": "q03",
+    "query": "Propose pseudocode for cointegration-based pairs trading, including estimation and execution risks.",
+    "split": "dev",
+    "kind": "implementation"
+  },
+  {
+    "id": "q04",
+    "query": "How does a no-trade buffer reduce transaction costs for mean-reverting instruments?",
+    "split": "dev",
+    "kind": "explanation"
+  },
+  {
+    "id": "q05",
+    "query": "How does L1 filtering identify trends for momentum strategies?",
+    "split": "dev",
+    "kind": "explanation"
+  },
+  {
+    "id": "q06",
+    "query": "Explain Bayesian hierarchical factor investing and estimation risk.",
+    "split": "dev",
+    "kind": "explanation"
+  },
+  {
+    "id": "q07",
+    "query": "How can smoothed stochastic volatility forecasts affect leverage and turnover?",
+    "split": "dev",
+    "kind": "explanation"
+  },
+  {
+    "id": "q08",
+    "query": "What is the difference between ARIMA return forecasting and GARCH volatility forecasting?",
+    "split": "dev",
+    "kind": "explanation"
+  },
+  {
+    "id": "q09",
+    "query": "Why can a leveraged ETF diverge from its leverage multiple over a long holding period?",
+    "split": "dev",
+    "kind": "explanation"
+  },
+  {
+    "id": "q10",
+    "query": "Compare risk parity allocation with maximum diversification allocation.",
+    "split": "dev",
+    "kind": "comparison"
+  },
+  {
+    "id": "q11",
+    "query": "How does principal component analysis describe yield curve movements?",
+    "split": "dev",
+    "kind": "explanation"
+  },
+  {
+    "id": "q12",
+    "query": "Give an evidence-based trading strategy for Martian weather futures. No such market is covered. ",
+    "split": "dev",
+    "kind": "unsupported"
+  },
+  {
+    "id": "q13",
+    "query": "What momentum score, market filter, and position sizing rules does the Stocks on the Move example use?",
+    "split": "test",
+    "kind": "implementation"
+  },
+  {
+    "id": "q14",
+    "query": "How does a cross-sectional mean reversion strategy turn relative returns into portfolio weights?",
+    "split": "test",
+    "kind": "explanation"
+  },
+  {
+    "id": "q15",
+    "query": "How can signal smoothing change cross-sectional mean-reversion turnover?",
+    "split": "test",
+    "kind": "explanation"
+  },
+  {
+    "id": "q16",
+    "query": "What does a cointegration test establish that correlation alone does not?",
+    "split": "test",
+    "kind": "explanation"
+  },
+  {
+    "id": "q17",
+    "query": "What assumptions and cost sensitivity should be checked before applying optimal mean-reversion trading?",
+    "split": "test",
+    "kind": "explanation"
+  },
+  {
+    "id": "q18",
+    "query": "Compare piecewise trend filtering with a regression-based momentum ranking.",
+    "split": "test",
+    "kind": "comparison"
+  },
+  {
+    "id": "q19",
+    "query": "How does a hierarchical prior share information across assets for portfolio allocation?",
+    "split": "test",
+    "kind": "explanation"
+  },
+  {
+    "id": "q20",
+    "query": "Why can volatility-managed portfolios incur excessive leverage and turnover?",
+    "split": "test",
+    "kind": "explanation"
+  },
+  {
+    "id": "q21",
+    "query": "How do minimum-variance and tangency portfolios differ?",
+    "split": "test",
+    "kind": "explanation"
+  },
+  {
+    "id": "q22",
+    "query": "What does a monthly-rebalanced leveraged ETF backtest need to specify?",
+    "split": "test",
+    "kind": "implementation"
+  },
+  {
+    "id": "q23",
+    "query": "How can historical S&P 500 membership reduce survivorship bias in momentum research?",
+    "split": "test",
+    "kind": "explanation"
+  },
+  {
+    "id": "q24",
+    "query": "如何比较动量策略与横截面均值回归策略的信号和风险？",
+    "split": "test",
+    "kind": "comparison"
+  }
+]

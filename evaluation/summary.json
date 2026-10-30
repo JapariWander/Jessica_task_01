@@ -1,0 +1,217 @@
+{
+  "created_at": "2026-10-23T13:45:05.547406+00:00",
+  "evaluation_status": "exploratory_agent_proposed_labels_not_human",
+  "label_audit": "evaluation/label_audit.json",
+  "corpus_documents": 16,
+  "runs": [
+    {
+      "created_at": "2026-10-23T13:41:20.154909+00:00",
+      "backend": "minilm",
+      "status": "exploratory_not_human",
+      "corpus_sha256": "bb216d0f2b7f2fde2ce3370b3110372aedc69afaa1df36627931b9ccb3cba091",
+      "selected_chunk_tokens": 1024,
+      "selection_rule": "dev Recall@5, then dev MRR@5, then smaller chunk; not tuned on test",
+      "sizes": [
+        {
+          "chunk_tokens": 256,
+          "index_metadata": {
+            "created_at": "2026-10-23T13:41:50.997727+00:00",
+            "model": "sentence-transformers/all-MiniLM-L6-v2",
+            "model_commit": null,
+            "chunk_tokens": 256,
+            "overlap_ratio": 0.125,
+            "pooling": "equal mean of normalized nontruncated model-window vectors, then L2 normalize",
+            "embedding_window_tokens": 254,
+            "dimension": 384,
+            "documents": 16,
+            "chunks": 521,
+            "corpus_sha256": "bb216d0f2b7f2fde2ce3370b3110372aedc69afaa1df36627931b9ccb3cba091"
+          },
+          "index_seconds": 30.843589467999664,
+          "median_query_seconds": 0.012148972999966645,
+          "summary": {
+            "dev": {
+              "scored_questions": 11,
+              "recall_at_k": 0.8939393939393939,
+              "mrr_at_k": 0.7272727272727273
+            },
+            "test": {
+              "scored_questions": 11,
+              "recall_at_k": 0.7727272727272727,
+              "mrr_at_k": 0.6515151515151515
+            }
+          }
+        },
+        {
+          "chunk_tokens": 512,
+          "index_metadata": {
+            "created_at": "2026-10-23T13:42:15.997416+00:00",
+            "model": "sentence-transformers/all-MiniLM-L6-v2",
+            "model_commit": null,
+            "chunk_tokens": 512,
+            "overlap_ratio": 0.125,
+            "pooling": "equal mean of normalized nontruncated model-window vectors, then L2 normalize",
+            "embedding_window_tokens": 254,
+            "dimension": 384,
+            "documents": 16,
+            "chunks": 265,
+            "corpus_sha256": "bb216d0f2b7f2fde2ce3370b3110372aedc69afaa1df36627931b9ccb3cba091"
+          },
+          "index_seconds": 24.694974752000235,
+          "median_query_seconds": 0.011108042499927251,
+          "summary": {
+            "dev": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9242424242424242,
+              "mrr_at_k": 0.9393939393939394
+            },
+            "test": {
+              "scored_questions": 11,
+              "recall_at_k": 0.8939393939393939,
+              "mrr_at_k": 0.8136363636363636
+            }
+          }
+        },
+        {
+          "chunk_tokens": 1024,
+          "index_metadata": {
+            "created_at": "2026-10-23T13:42:40.905870+00:00",
+            "model": "sentence-transformers/all-MiniLM-L6-v2",
+            "model_commit": null,
+            "chunk_tokens": 1024,
+            "overlap_ratio": 0.125,
+            "pooling": "equal mean of normalized nontruncated model-window vectors, then L2 normalize",
+            "embedding_window_tokens": 254,
+            "dimension": 384,
+            "documents": 16,
+            "chunks": 135,
+            "corpus_sha256": "bb216d0f2b7f2fde2ce3370b3110372aedc69afaa1df36627931b9ccb3cba091"
+          },
+          "index_seconds": 24.619969958000183,
+          "median_query_seconds": 0.010583467000287783,
+          "summary": {
+            "dev": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9242424242424242,
+              "mrr_at_k": 0.9545454545454546
+            },
+            "test": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9696969696969697,
+              "mrr_at_k": 0.9090909090909091
+            }
+          }
+        }
+      ]
+    },
+    {
+      "created_at": "2026-10-23T13:41:20.917588+00:00",
+      "backend": "tfidf",
+      "status": "exploratory_not_human",
+      "corpus_sha256": "bb216d0f2b7f2fde2ce3370b3110372aedc69afaa1df36627931b9ccb3cba091",
+      "selected_chunk_tokens": 1024,
+      "selection_rule": "dev Recall@5, then dev MRR@5, then smaller chunk; not tuned on test",
+      "sizes": [
+        {
+          "chunk_tokens": 256,
+          "index_metadata": {
+            "created_at": "2026-10-23T13:41:21.259721+00:00",
+            "model": "tfidf-word-1-2-baseline",
+            "model_commit": null,
+            "chunk_tokens": 256,
+            "overlap_ratio": 0.125,
+            "pooling": "TF-IDF L2 normalized, vocabulary fit on full documents",
+            "embedding_window_tokens": null,
+            "dimension": 4096,
+            "documents": 16,
+            "chunks": 521,
+            "corpus_sha256": "bb216d0f2b7f2fde2ce3370b3110372aedc69afaa1df36627931b9ccb3cba091"
+          },
+          "index_seconds": 0.34311170099954325,
+          "median_query_seconds": 0.0006557475003319269,
+          "summary": {
+            "dev": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9090909090909091,
+              "mrr_at_k": 0.9545454545454546
+            },
+            "test": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9090909090909091,
+              "mrr_at_k": 0.8181818181818182
+            }
+          }
+        },
+        {
+          "chunk_tokens": 512,
+          "index_metadata": {
+            "created_at": "2026-10-23T13:41:21.564388+00:00",
+            "model": "tfidf-word-1-2-baseline",
+            "model_commit": null,
+            "chunk_tokens": 512,
+            "overlap_ratio": 0.125,
+            "pooling": "TF-IDF L2 normalized, vocabulary fit on full documents",
+            "embedding_window_tokens": null,
+            "dimension": 4096,
+            "documents": 16,
+            "chunks": 265,
+            "corpus_sha256": "bb216d0f2b7f2fde2ce3370b3110372aedc69afaa1df36627931b9ccb3cba091"
+          },
+          "index_seconds": 0.27637095200043404,
+          "median_query_seconds": 0.0005157465002412209,
+          "summary": {
+            "dev": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9090909090909091,
+              "mrr_at_k": 0.9393939393939394
+            },
+            "test": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9090909090909091,
+              "mrr_at_k": 0.8636363636363636
+            }
+          }
+        },
+        {
+          "chunk_tokens": 1024,
+          "index_metadata": {
+            "created_at": "2026-10-23T13:41:21.896701+00:00",
+            "model": "tfidf-word-1-2-baseline",
+            "model_commit": null,
+            "chunk_tokens": 1024,
+            "overlap_ratio": 0.125,
+            "pooling": "TF-IDF L2 normalized, vocabulary fit on full documents",
+            "embedding_window_tokens": null,
+            "dimension": 4096,
+            "documents": 16,
+            "chunks": 135,
+            "corpus_sha256": "bb216d0f2b7f2fde2ce3370b3110372aedc69afaa1df36627931b9ccb3cba091"
+          },
+          "index_seconds": 0.3051860220002709,
+          "median_query_seconds": 0.0004586514996844926,
+          "summary": {
+            "dev": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9090909090909091,
+              "mrr_at_k": 1.0
+            },
+            "test": {
+              "scored_questions": 11,
+              "recall_at_k": 0.9090909090909091,
+              "mrr_at_k": 0.8636363636363636
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "pytest_passed": 16,
+    "pip_check": "passed",
+    "ui_minilm_evidence_query": "passed",
+    "ui_human_review_guard": "passed",
+    "http_health": "200",
+    "live_llm_generation": "not_run_missing_credentials",
+    "human_grounding_review": "not_run"
+  }
+}

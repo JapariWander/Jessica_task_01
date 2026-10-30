@@ -1,0 +1,2 @@
+Improving Cross Sectional Mean Reversion Strategy in Python
+Authors: Teddy Koker

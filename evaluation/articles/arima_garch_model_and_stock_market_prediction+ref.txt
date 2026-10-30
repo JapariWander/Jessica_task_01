@@ -1,0 +1,2 @@
+ARIMA GARCH Model and Stock Market Prediction
+Authors: Letian Wang

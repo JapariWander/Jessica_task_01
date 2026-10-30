@@ -1,0 +1,2 @@
+Creating a Survivorship Bias-Free S&P 500 Dataset with Python
+Authors: Teddy Koker

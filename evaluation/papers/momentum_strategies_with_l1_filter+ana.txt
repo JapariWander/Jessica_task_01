@@ -1,0 +1,2 @@
+Momentum Strategies with L1 Filter
+Authors: Tung-Lam Dao
